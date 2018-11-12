@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseUpgradeDialog</class>
+ <widget class="QDialog" name="ChooseUpgradeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>116</width>
+    <height>71</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="applyDelegateBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>35</y>
+     <width>116</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>代理账户升级</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="upgradeBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>116</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册账户升级</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

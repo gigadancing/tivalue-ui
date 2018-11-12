@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectGopPathWidget</class>
+ <widget class="QWidget" name="SelectGopPathWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="selectPathBtn">
+   <property name="geometry">
+    <rect>
+     <x>585</x>
+     <y>260</y>
+     <width>73</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color:white;border:1px solid  rgb(46,78,126);border-radius:16px;
+background-color: rgb(46,78,126);}
+QToolButton:hover{background-color:rgb(66,98,146);}
+QToolButton:disabled{background-color:#cecece;}</string>
+   </property>
+   <property name="text">
+    <string>选择路径</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pathLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>260</y>
+     <width>227</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>348</x>
+     <y>240</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>钱包数据存储路径:</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="okBtn">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>322</y>
+     <width>140</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{color:white;border:1px solid  rgb(46,78,126);border-radius:16px;
+background-color: rgb(46,78,126);}
+QToolButton:hover{background-color:rgb(66,98,146);}
+QToolButton:disabled{background-color:#cecece;}</string>
+   </property>
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>938</x>
+     <y>10</y>
+     <width>14</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="minBtn">
+   <property name="geometry">
+    <rect>
+     <x>916</x>
+     <y>10</y>
+     <width>14</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

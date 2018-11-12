@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseAddAccountDialog</class>
+ <widget class="QDialog" name="ChooseAddAccountDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>94</width>
+    <height>79</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ChooseAddAccountDialog{background:transparent;}</string>
+  </property>
+  <widget class="QPushButton" name="newBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>94</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color:rgb(235,235,235);border:1px solid rgb(102,102,102);border-top-left-radius:10px;border-top-right-radius:10px;background-color: rgb(33,33,36)}
+QPushButton:hover{background-color: rgb(38,40,44);}</string>
+   </property>
+   <property name="text">
+    <string>新建账户</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="importBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>39</y>
+     <width>94</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color:rgb(235,235,235);border:1px solid rgb(102,102,102);border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color: rgb(33,33,36)}
+QPushButton:hover{background-color: rgb(38,40,44);}</string>
+   </property>
+   <property name="text">
+    <string>导入账户</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

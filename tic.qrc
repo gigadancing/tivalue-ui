@@ -1,0 +1,67 @@
+<RCC>
+    <qresource prefix="/qm">
+        <file alias="qt_zh_cn">qt_zh_CN.qm</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>pic2/logo92x31.png</file>
+        <file>pic2/logo134x54.png</file>
+        <file>pic2/minimize_hover.png</file>
+        <file>pic2/close2.png</file>
+        <file>pic2/close_hover.png</file>
+        <file>pic2/set.png</file>
+        <file>pic2/network.png</file>
+        <file>pic2/close3.png</file>
+        <file>pic2/close4.png</file>
+        <file>pic2/pwdTip.png</file>
+        <file>pic2/correct2.png</file>
+        <file>pic2/loading2.gif</file>
+        <file>pic2/loading.gif</file>
+        <file>pic2/arrow_hover.png</file>
+        <file>pic2/correct.png</file>
+        <file>pic2/wrong.png</file>
+        <file>pic2/arrow.png</file>
+        <file>pic2/logo283x75.png</file>
+        <file>pic2/logo145x38.png</file>
+        <file>ticpic/tic.ico</file>
+        <file>ticpic/close.png</file>
+        <file>ticpic/lockBtn.png</file>
+        <file>ticpic/minimize.png</file>
+        <file>ticpic/set.png</file>
+        <file>pic2/minimize2.png</file>
+        <file>ticpic/accountBtn.png</file>
+        <file>ticpic/accountBtn_unselected.png</file>
+        <file>ticpic/contactBtn.png</file>
+        <file>ticpic/contactBtn_unselected.png</file>
+        <file>ticpic/transferBtn.png</file>
+        <file>ticpic/transferBtn_unselected.png</file>
+        <file>ticpic/contactBtn2.png</file>
+        <file>ticpic/comboBoxArrow.png</file>
+        <file>ticpic/addContactBtn.png</file>
+        <file>ticpic/edit.png</file>
+        <file>ticpic/transfer2.png</file>
+        <file>ticpic/copyBtn.png</file>
+        <file>ticpic/checkBox_checked.png</file>
+        <file>ticpic/checkBox_unchecked.png</file>
+        <file>ticpic/close2.png</file>
+        <file>ticpic/logo101x28.png</file>
+        <file>ticpic/bg.png</file>
+        <file>ticpic/control.png</file>
+        <file>ticpic/control_clicked.png</file>
+        <file>ticpic/applayUploadFile.png</file>
+        <file>ticpic/uploadFileBtn.png</file>
+        <file>ticpic/downloadfileBtn.png</file>
+        <file>ticpic/downloadfile.png</file>
+        <file>ticpic/downloadfile_clicked.png</file>
+        <file>ticpic/storage.png</file>
+        <file>ticpic/storage_clicked.png</file>
+        <file>ticpic/storage_service.png</file>
+        <file>ticpic/storage_service_clicked.png</file>
+        <file>ticpic/uploadfile.png</file>
+        <file>ticpic/uploadfile_clicked.png</file>
+    </qresource>
+    <qresource prefix="/language">
+        <file>widgets.qm</file>
+        <file>gop_English.qm</file>
+        <file>gop_simplified_Chinese.qm</file>
+    </qresource>
+</RCC>
